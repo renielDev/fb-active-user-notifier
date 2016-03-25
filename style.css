@@ -1,4 +1,3 @@
-
 .fb-track {
   position: fixed;
   width: 200px;
@@ -6,10 +5,11 @@
   z-index: 5000;
   right: 5px;
   top: 5px;
-  border-radius: 5px;
   padding: 5px;
-  background: #D83B3B;
   box-shadow: 0px 2px 8px rgba(128, 128, 128, 0.62);
+  background-color: #FFFFFF;
+  border-radius: 2px;
+  border: 1px solid #E9EAED;
 }
 .fb-track.is-out {
   width: 8px;
@@ -28,8 +28,8 @@
 }
 
 #fb_toggle {
-  background: #44BFA3;
-  border-color: #44BFA3;
+  background: #009E1D;
+  border-color: #009E1D;
   position: absolute;
   right: 3px;
   top: 3px;

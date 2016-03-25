@@ -14,7 +14,7 @@
       "js": ["elements.js","content.js"]
     }
   ],
-  "background": {
-    "scripts": ["background.js"]
+  "background" : {
+    "scripts" : ["background.js"]
   }
 }

@@ -23,6 +23,11 @@ addPerson.appendChild(txtNode);
 
 fbTrack.appendChild(addPerson);
 
+var fbNotif = document.createElement("div");
+fbNotif.className = "fb-notif";
+fbNotif.id = "fbNotif";
+document.body.appendChild(fbNotif);
+
 // Events
 function poluteList(people) {
   for(var x=0;x<people.length;x++) {
@@ -52,8 +57,6 @@ addPerson.addEventListener("click", function(){
 });
 
 fbToggle.addEventListener("click", function() {
-
   var hasClass = fbTrack.classList.contains('is-out');
   fbTrack.classList[ (hasClass) ? 'remove' : 'add' ]('is-out');
-
 });
